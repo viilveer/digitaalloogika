@@ -17,7 +17,7 @@ architecture behavioral of JUHTAUTOMAAT is
 begin 
 	-- heating logic
 	process(b,c) begin 
-		if b = "00" && c = "00" then -- coldest inside and outside, heat on.
+		if b = "00" and c = "00" then -- coldest inside and outside, heat on.
 			y1 <= '1';
 		else
 			y1 <= '0';
@@ -28,7 +28,7 @@ begin
 		if a = "00" then
 			y3 <= '1';
 		elsif a = "10" 
-			if c = "10" && d = '0'
+			if c = "10" and d = '0'
 				y3 <= '1';
 		else 
 			y3 <= '0';		
@@ -37,7 +37,7 @@ begin
 
 	-- AC logic
 	process(b,c,d) begin 
-		if b = "10" && c = "10" && d = '1' then
+		if b = "10" and c = "10" and d = '1' then
 			y2 <= '1';
 		else 
 			y2 <= '0';
