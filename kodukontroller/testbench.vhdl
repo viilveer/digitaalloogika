@@ -38,31 +38,31 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
 	end component;
     
    --Inputs from the testbench
-   signal a_tb : std_logic_vector(1 downto 0) := (others => '0');
-   signal b_tb : std_logic_vector(1 downto 0) := (others => '0');
-   signal c_tb : std_logic_vector(1 downto 0) := (others => '0');
-   signal d_tb : std_logic;
+   	signal a_tb : std_logic_vector(1 downto 0) := (others => '0');
+   	signal b_tb : std_logic_vector(1 downto 0) := (others => '0');
+   	signal c_tb : std_logic_vector(1 downto 0) := (others => '0');
+   	signal d_tb : std_logic;
   
  	--Output from the testbench
-   signal y1_tt_tb : std_logic;
-   signal y2_tt_tb : std_logic;
-   signal y3_tt_tb : std_logic;
-   signal y4_tt_tb : std_logic_vector(1 downto 0);
+   	signal y1_tt_tb : std_logic;
+   	signal y2_tt_tb : std_logic;
+   	signal y3_tt_tb : std_logic;
+   	signal y4_tt_tb : std_logic_vector(1 downto 0);
 	
 	signal y1_bh_tb : std_logic;
-   signal y2_bh_tb : std_logic;
-   signal y3_bh_tb : std_logic;
-   signal y4_bh_tb : std_logic_vector(1 downto 0);
+   	signal y2_bh_tb : std_logic;
+   	signal y3_bh_tb : std_logic;
+   	signal y4_bh_tb : std_logic_vector(1 downto 0);
 	
 	signal y1_df_tb : std_logic;
-   signal y2_df_tb : std_logic;
-   signal y3_df_tb : std_logic;
-   signal y4_df_tb : std_logic_vector(1 downto 0);
+   	signal y2_df_tb : std_logic;
+   	signal y3_df_tb : std_logic;
+   	signal y4_df_tb : std_logic_vector(1 downto 0);
 	
 	signal y1_st_tb : std_logic;
-   signal y2_st_tb : std_logic;
-   signal y3_st_tb : std_logic;
-   signal y4_st_tb : std_logic_vector(1 downto 0);
+   	signal y2_st_tb : std_logic;
+   	signal y3_st_tb : std_logic;
+   	signal y4_st_tb : std_logic_vector(1 downto 0);
 	
 	--combined input vector
 	signal input_tb : std_logic_vector (6 downto 0) := (others => '0');
