@@ -19,7 +19,7 @@ component tt is
     Port ( a : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input
 		   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input 
 		   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
-		   d : in STD_LOGIC; --1 bit output
+		   d : in STD_LOGIC; --1 bit input
 		   y1 : out STD_LOGIC; --1 bit output
 		   y2 : out STD_LOGIC; -- 1 bit output 
 		   y3 : out STD_LOGIC; --1 bit output
