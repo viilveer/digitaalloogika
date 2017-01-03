@@ -19,22 +19,22 @@ architecture dataflowing of DATAFLOW is
 	signal t : std_logic_vector (17 downto 1) := (others => '0');
 	
 begin
-t(1) <= (a(0) and a(1));
-t(2) <= (a(0) and b(0) and not(d));
-t(3) <= (a(0) and not(c(0)) and not(d));
-t(4) <= (not(a(0)) and b(0) and c(0));
-t(5) <= (a(1) and b(1) and not(d)) ;
-t(6) <= (not(a(1)));
-t(7) <= (b(0) and b(1));
-t(8) <= (b(0) and c(0) and d);
-t(9) <= (b(0) and not(c(0)));
-t(10) <= (not(b(0)) and not(b(1)) and not(c(0)));
-t(11) <= (not(b(0)) and c(0));
-t(12) <= (b(1) and not(c(1)));
-t(13) <= ((b(1)));
-t(14) <= (not(b(1)) and c(1));
-t(15) <= (c(0) and c(1));
-t(16) <= (not(c(1)));
+t(1) <= (a(1) and a(0));
+t(2) <= (a(1) and b(1) and not(d));
+t(3) <= (a(1) and not(c(1)) and not(d));
+t(4) <= (not(a(1)) and b(1) and c(1));
+t(5) <= (a(0) and b(0) and not(d)) ;
+t(6) <= (not(a(0)));
+t(7) <= (b(1) and b(0));
+t(8) <= (b(1) and c(1) and d);
+t(9) <= (b(1) and not(c(1)));
+t(10) <= (not(b(1)) and not(b(0)) and not(c(1)));
+t(11) <= (not(b(1)) and c(1));
+t(12) <= (b(0) and not(c(0)));
+t(13) <= (b(0));
+t(14) <= (not(b(0)) and c(0));
+t(15) <= (c(1) and c(0));
+t(16) <= (not(c(0)));
 t(17) <= (not(d));
 
 y1 <= not(t(1) or t(2) or t(4) or t(8) or t(9) or t(11) or t(13) or t(14));

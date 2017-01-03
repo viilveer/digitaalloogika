@@ -37,6 +37,12 @@
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="CustomSignalColor">#0000ff</obj_property>
    </wvobject>
+   <wvobject fp_name="/juhtautomaat_tb/input_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_tb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_tb[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
    <wvobject fp_name="/juhtautomaat_tb/y1_tt_tb" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">y1_tt_tb</obj_property>
       <obj_property name="ObjectShortName">y1_tt_tb</obj_property>
@@ -116,9 +122,5 @@
    <wvobject fp_name="/juhtautomaat_tb/y4_st_tb" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">y4_st_tb[1:0]</obj_property>
       <obj_property name="ObjectShortName">y4_st_tb[1:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/juhtautomaat_tb/input_tb" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">input_tb[6:0]</obj_property>
-      <obj_property name="ObjectShortName">input_tb[6:0]</obj_property>
    </wvobject>
 </wave_config>
