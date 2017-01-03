@@ -14,10 +14,10 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
 			   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input 
 			   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
 			   d : in STD_LOGIC; --1 bit output
-			   y1 : in STD_LOGIC; --1 bit output
-			   y2 : in STD_LOGIC; -- 1 bit output 
-			   y3 : in STD_LOGIC; --1 bit output
-			   y4 : in STD_LOGIC_VECTOR (1 downto 0); --2 bit output
+			   y1 : out STD_LOGIC; --1 bit output
+			   y2 : out STD_LOGIC; -- 1 bit output 
+			   y3 : out STD_LOGIC; --1 bit output
+			   y4 : out STD_LOGIC_VECTOR (1 downto 0); --2 bit output
 		); 
 	end component;
     
@@ -27,7 +27,6 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
    signal c_tb : std_logic_vector(1 downto 0) := (others => '0');
    signal d_tb : std_logic;
   
-
  	--Output from the testbench
    signal y1_tb : std_logic;
    signal y2_tb : std_logic;
@@ -49,14 +48,32 @@ begin
 process
 begin
 	-- tests here
-	report "Test some of the truth table";
-	a_tb <= "01";
-	b_tb <= "01";
-	c_tb <= "00";
-	d_tb <= '1';
+	signal input_tb : std_logic_vector (6 downto 0) := (others => '0');
+	input_tb <= (
+		6 =>A_tb(1),
+		5 =>A_tb(0),     
+		4 =>B_tb(1),     
+		3 =>B_tb(0),  
+		2 =>C_tb(1),  
+		1 =>C_tb(0),  
+		0 =>D_tb 
+	);	
+	
+	for i in 0 to 118 loop		
+		report "Test truth table column nr. " --CONCATENATE THE input_tb as STRING HERE;
+		
+		a_tb(1) <= input_tb(6);
+		a_tb(0) <= input_tb(5);
+		b_tb(1) <= input_tb(4);
+		b_tb(0) <= input_tb(3);
+		c_tb(1) <= input_tb(2);
+		c_tb(0)<= input_tb(1);
+		d_tb <= input_tb(0);
 
-	wait for 10ns;
-
+		wait for 10ns;
+		input_tb <= std_logic_vector((unsigned(input_tb) + 1));
+	end loop;
+	
 	wait;
 end process;
 
