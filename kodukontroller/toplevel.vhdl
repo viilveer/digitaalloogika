@@ -6,10 +6,10 @@ entity JUHTAUTOMAAT is
 		   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input 
 		   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
 		   d : in STD_LOGIC; --1 bit input
-		   y1 : in STD_LOGIC; --1 bit output
-		   y2 : in STD_LOGIC; -- 1 bit output 
-		   y3 : in STD_LOGIC; --1 bit output
-		   y4 : in STD_LOGIC_VECTOR (1 downto 0) --2 bit output
+		   y1 : out STD_LOGIC; --1 bit output
+		   y2 : out STD_LOGIC; -- 1 bit output 
+		   y3 : out STD_LOGIC; --1 bit output
+		   y4 : out STD_LOGIC_VECTOR (1 downto 0) --2 bit output
 	);
 end JUHTAUTOMAAT;
 
@@ -54,7 +54,9 @@ end component;
 begin --beginning of the architecture
 
 -- port maps here
+
+---NB IGALE VERSIOONILE OMA OUT??
 	truth : tt port map (a, b, c, d, y1, y2, y3, y4);
-	behave_model : behave port map (a, b, c, d, y1, y2, y3, y4);
-	dataflow_model : dataflow port map (a, b, c, d, y1, y2, y3, y4);
+	--behave_model : behave port map (a, b, c, d, y1, y2, y3, y4);
+	--dataflow_model : dataflow port map (a, b, c, d, y1, y2, y3, y4);
 end toplevel;

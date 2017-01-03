@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl" Line 15: Syntax error near &quot;<arg fmt="%s" index="1">)</arg>&quot;.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl" Line 20: Syntax error near &quot;<arg fmt="%s" index="1">begin</arg>&quot;.
-</msg>
-
 </messages>
 

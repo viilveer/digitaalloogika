@@ -1,7 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all; --just in case library
-use ieee.std_logic_arith.all; --just in case library
  
 ENTITY JUHTAUTOMAAT_TB IS --entity of the testbench is always empty
 END JUHTAUTOMAAT_TB;
@@ -64,7 +63,7 @@ begin
 	);	
 	
 	for i in 0 to 118 loop		
-		report "Test truth table column nr. " --CONCATENATE THE input_tb as STRING HERE;
+		report "Test truth table column nr. "; --CONCATENATE THE input_tb as STRING HERE
 		
 		a_tb(1) <= input_tb(6);
 		a_tb(0) <= input_tb(5);

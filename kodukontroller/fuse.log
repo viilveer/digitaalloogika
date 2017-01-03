@@ -1,9 +1,23 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow_isim_beh.exe -prj C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow_beh.prj work.dataflow 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_isim_beh.exe" -prj "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_beh.prj" "work.JUHTAUTOMAAT" 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl" into library work
-ERROR:HDLCompiler:806 - "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl" Line 15: Syntax error near ")".
-ERROR:HDLCompiler:806 - "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl" Line 20: Syntax error near "begin".
-VHDL file C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl ignored due to errors
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/tt.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/toplevel.vhdl" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99344 KB
+Fuse CPU Usage: 265 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling architecture design of entity tt [tt_default]
+Compiling architecture toplevel of entity juhtautomaat
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_isim_beh.exe
+Fuse Memory Usage: 114232 KB
+Fuse CPU Usage: 514 ms
