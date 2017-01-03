@@ -110,7 +110,7 @@ begin
 			B_tb(0) <= input_tb(3);
 			C_tb(1) <= input_tb(2);
 			C_tb(0) <= input_tb(1);
-			D_tb <= input_tb(0);
+			D_tb    <= input_tb(0);
 		wait for 10ns;
 	end loop;
 	wait;
