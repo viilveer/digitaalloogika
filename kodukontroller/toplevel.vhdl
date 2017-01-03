@@ -38,10 +38,23 @@ component behave is
 		   y4 : out STD_LOGIC_VECTOR (1 downto 0) --2 bit output ventilation
 	);
 end component;	
+
+component dataflow is 
+    Port ( a : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input outside light
+		   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input inside temp 
+		   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input outside temp
+		   d : in STD_LOGIC; --1 bit input people home
+		   y1 : out STD_LOGIC; --1 bit output heating
+		   y2 : out STD_LOGIC; -- 1 bit output AC
+		   y3 : out STD_LOGIC; --1 bit output curtains
+		   y4 : out STD_LOGIC_VECTOR (1 downto 0) --2 bit output ventilation
+	);
+end component;	
 	
 begin --beginning of the architecture
 
 -- port maps here
 	truth : tt port map (a, b, c, d, y1, y2, y3, y4);
 	behave_model : behave port map (a, b, c, d, y1, y2, y3, y4);
+	dataflow_model : dataflow port map (a, b, c, d, y1, y2, y3, y4);
 end toplevel;

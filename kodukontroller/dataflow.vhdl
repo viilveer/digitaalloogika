@@ -15,33 +15,34 @@ entity DATAFLOW is
 	);
 end DATAFLOW;
 
-architecture dataflow of DATAFLOW is 
-	signal input : std_logic_vector (6 downto 0) := (others => '0');
+architecture dataflowing of DATAFLOW is 
+	signal t : std_logic_vector (18 downto 0) := (others => '0');
+	
 begin
-t01 <= (a(1) and a(2));
-t02 <= (a(1) and b(1) and not(d));
-t03 <= (a(1) and not(c(1)) and not(d));
-t04 <= (not(a(1)) and b(1) and c(1));
-t05 <= (a(2)) and b(2) and not(d)) ;
-t06 <= (not(a(2));
-t07 <= (b(1) and b(2));
-t08 <= (b(1) and c(1) and d);
-t09 <= (b(1) and not(c(1)));
-t10 <= (not(b(1)) and not(b(2)) and not(c(1)));
-t11 <= (not(b(1)) c(1));
-t12 <= (b(2) and not(c(2)));
-t13 <= (not(b(2))));
-t14 <= (not(b(2)) and c(2));
-t15 <= (c(1) and c(2));
-t16 <= (not(c(2)));
-t17 <= (not(d));
-y1 <= not(t01 or t02 or t04 or t08 or t09 or t11 or t13 or t14);
-y2 <= not(t01 or t09 or t10 or t11 or t13 or 114 or t16);
-y3 <= not(t01 or t06 or t07 or t15 or t17);
-y4 <= not(t01 or t02 or t13 or t15 or t16);
-y5 <= not(t01 or t03 or t04 or t05 or t07 or t08 or t10 or t12 or t14);
+t(1) <= (a(0) and a(1));
+t(2) <= (a(0) and b(0) and not(d));
+t(3) <= (a(0) and not(c(0)) and not(d));
+t(4) <= (not(a(0)) and b(0) and c(0));
+t(5) <= (a(1) and b(1) and not(d)) ;
+t(6) <= (not(a(1)));
+t(7) <= (b(0) and b(1));
+t(8) <= (b(0) and c(0) and d);
+t(9) <= (b(0) and not(c(0)));
+t(10) <= (not(b(0)) and not(b(1)) and not(c(0)));
+t(11) <= (not(b(0)) and c(0));
+t(12) <= (b(1) and not(c(1)));
+t(13) <= (not(b(1)));
+t(14) <= (not(b(1)) and c(1));
+t(15) <= (c(0) and c(1));
+t(16) <= (not(c(1)));
+t(17) <= (not(d));
+y1 <= not(t(1) or t(2) or t(4) or t(8) or t(9) or t(11) or t(13) or t(14));
+y2 <= not(t(1) or t(9) or t(10) or t(11) or t(13) or t(14) or t(16));
+y3 <= not(t(1) or t(6) or t(7) or t(15) or t(17));
+y4(1) <= not(t(1) or t(2) or t(13) or t(15) or t(16));
+y4(0) <= not(t(1) or t(3) or t(4) or t(5) or t(7) or t(8) or t(10) or t(12) or t(14));
 
-end design;
+end architecture dataflowing;
 
 -----------------------------------------------------------------
 --espresso.exe espresso.txt

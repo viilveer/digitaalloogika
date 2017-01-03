@@ -17,7 +17,7 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
 			   y1 : out STD_LOGIC; --1 bit output
 			   y2 : out STD_LOGIC; -- 1 bit output 
 			   y3 : out STD_LOGIC; --1 bit output
-			   y4 : out STD_LOGIC_VECTOR (1 downto 0); --2 bit output
+			   y4 : out STD_LOGIC_VECTOR (1 downto 0) --2 bit output
 		); 
 	end component;
     
@@ -32,6 +32,9 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
    signal y2_tb : std_logic;
    signal y3_tb : std_logic;
    signal y4_tb : std_logic_vector(1 downto 0);
+	
+	--combined input vector
+	signal input_tb : std_logic_vector (6 downto 0) := (others => '0');
 
 begin
 		--component port map
@@ -46,9 +49,10 @@ begin
           y4 => y4_tb
         ); 
 process
+
 begin
 	-- tests here
-	signal input_tb : std_logic_vector (6 downto 0) := (others => '0');
+	
 	input_tb <= (
 		6 =>A_tb(1),
 		5 =>A_tb(0),     
