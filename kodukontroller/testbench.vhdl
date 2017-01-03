@@ -13,12 +13,12 @@ ARCHITECTURE testbench OF JUHTAUTOMAAT_TB IS
 	    Port ( a : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input
 			   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input 
 			   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
-			   d : in STD_LOGIC; --1 bit input
-			   y1 : in STD_LOGIC; --1 bit input
-			   y2 : in STD_LOGIC; -- 1 bit input 
-			   y3 : in STD_LOGIC; --1 bit input
-			   y4 : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
-		); --4 bit output 
+			   d : in STD_LOGIC; --1 bit output
+			   y1 : in STD_LOGIC; --1 bit output
+			   y2 : in STD_LOGIC; -- 1 bit output 
+			   y3 : in STD_LOGIC; --1 bit output
+			   y4 : in STD_LOGIC_VECTOR (1 downto 0); --2 bit output
+		); 
 	end component;
     
    --Inputs from the testbench
