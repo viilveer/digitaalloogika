@@ -16,7 +16,7 @@ entity DATAFLOW is
 end DATAFLOW;
 
 architecture dataflowing of DATAFLOW is 
-	signal t : std_logic_vector (17 downto 0) := (others => '0');
+	signal t : std_logic_vector (17 downto 1) := (others => '0');
 	
 begin
 t(1) <= (a(0) and a(1));
@@ -31,17 +31,17 @@ t(9) <= (b(0) and not(c(0)));
 t(10) <= (not(b(0)) and not(b(1)) and not(c(0)));
 t(11) <= (not(b(0)) and c(0));
 t(12) <= (b(1) and not(c(1)));
-t(13) <= (not(b(1)));
+t(13) <= ((b(1)));
 t(14) <= (not(b(1)) and c(1));
 t(15) <= (c(0) and c(1));
 t(16) <= (not(c(1)));
 t(17) <= (not(d));
 
 y1 <= not(t(1) or t(2) or t(4) or t(8) or t(9) or t(11) or t(13) or t(14));
-y2 <= not(t(1) or t(9) or t(10) or t(11) or t(13) or t(14) or t(16));
+y2 <= not(t(1) or t(9) or t(10) or t(11) or t(13) or t(15) or t(17));
 y3 <= not(t(1) or t(6) or t(7) or t(15) or t(17));
 y4(1) <= not(t(1) or t(2) or t(13) or t(15) or t(16));
-y4(0) <= not(t(1) or t(3) or t(4) or t(5) or t(7) or t(8) or t(10) or t(12) or t(14));
+y4(0) <= not(t(1) or t(3) or t(4) or t(5) or t(7) or t(8) or t(10) or t(12) or t(14) or t(15));
 
 end architecture dataflowing;
 
@@ -51,7 +51,7 @@ end architecture dataflowing;
 --		.o 5
 --		#.phase 00000			Alphabetical:
 --		.p 17
---		0-1-1-- 10001			11----- 11111
+--		0-1-1-- 10001			   11----- 11111
 --		1---0-0 00001           1-1---0 10010 
 --		-1-1--0 00001           1---0-0 00001 
 --		--000-- 01001           0-1-1-- 10001 
