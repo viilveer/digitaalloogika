@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all; --just in case library
 use ieee.std_logic_arith.all; --just in case library
 
-entity DATAFLOW is 
+entity struct is 
     Port ( a : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input
 		   b : in  STD_LOGIC_VECTOR (1 downto 0); -- 2 bit input 
 		   c : in STD_LOGIC_VECTOR (1 downto 0); --2 bit input
@@ -13,9 +13,9 @@ entity DATAFLOW is
 		   y3 : out STD_LOGIC; --1 bit output
 		   y4 : out STD_LOGIC_VECTOR (1 downto 0) --2 bit output 
 	);
-end DATAFLOW;
+end struct;
 
-architecture dataflowing of DATAFLOW is 
+architecture structual of struct is 
 	signal t : std_logic_vector (17 downto 0) := (others => '0');
 	
 begin
@@ -36,14 +36,13 @@ t(14) <= (not(b(1)) and c(1));
 t(15) <= (c(0) and c(1));
 t(16) <= (not(c(1)));
 t(17) <= (not(d));
-
 y1 <= not(t(1) or t(2) or t(4) or t(8) or t(9) or t(11) or t(13) or t(14));
 y2 <= not(t(1) or t(9) or t(10) or t(11) or t(13) or t(14) or t(16));
 y3 <= not(t(1) or t(6) or t(7) or t(15) or t(17));
 y4(1) <= not(t(1) or t(2) or t(13) or t(15) or t(16));
 y4(0) <= not(t(1) or t(3) or t(4) or t(5) or t(7) or t(8) or t(10) or t(12) or t(14));
 
-end architecture dataflowing;
+end architecture structual;
 
 -----------------------------------------------------------------
 --espresso.exe espresso.txt
