@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_isim_beh.exe" -prj "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_beh.prj" "work.JUHTAUTOMAAT" 
+-intstyle "ise" -incremental -o "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_TB_isim_beh.exe" -prj "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_TB_beh.prj" "work.JUHTAUTOMAAT_TB" 

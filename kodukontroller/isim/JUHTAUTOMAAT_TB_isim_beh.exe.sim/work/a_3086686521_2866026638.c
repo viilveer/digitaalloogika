@@ -1124,6 +1124,6 @@ LAB54:    goto LAB52;
 extern void work_a_3086686521_2866026638_init()
 {
 	static char *pe[] = {(void *)work_a_3086686521_2866026638_p_0,(void *)work_a_3086686521_2866026638_p_1,(void *)work_a_3086686521_2866026638_p_2,(void *)work_a_3086686521_2866026638_p_3,(void *)work_a_3086686521_2866026638_p_4};
-	xsi_register_didat("work_a_3086686521_2866026638", "isim/JUHTAUTOMAAT_isim_beh.exe.sim/work/a_3086686521_2866026638.didat");
+	xsi_register_didat("work_a_3086686521_2866026638", "isim/JUHTAUTOMAAT_TB_isim_beh.exe.sim/work/a_3086686521_2866026638.didat");
 	xsi_register_executes(pe);
 }

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/dataflow.vhdl";
+static const char *ng0 = "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/struct.vhdl";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1605435078_503743352(char *, unsigned char , unsigned char );
@@ -29,7 +29,7 @@ unsigned char ieee_p_2592010699_sub_1690584930_503743352(char *, unsigned char )
 unsigned char ieee_p_2592010699_sub_2545490612_503743352(char *, unsigned char , unsigned char );
 
 
-static void work_a_0193944621_1500754806_p_0(char *t0)
+static void work_a_0091695031_1033399337_p_0(char *t0)
 {
     char *t1;
     char *t2;
@@ -88,7 +88,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_1(char *t0)
+static void work_a_0091695031_1033399337_p_1(char *t0)
 {
     char *t1;
     char *t2;
@@ -156,7 +156,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_2(char *t0)
+static void work_a_0091695031_1033399337_p_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -226,7 +226,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_3(char *t0)
+static void work_a_0091695031_1033399337_p_3(char *t0)
 {
     char *t1;
     char *t2;
@@ -304,7 +304,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_4(char *t0)
+static void work_a_0091695031_1033399337_p_4(char *t0)
 {
     char *t1;
     char *t2;
@@ -372,7 +372,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_5(char *t0)
+static void work_a_0091695031_1033399337_p_5(char *t0)
 {
     char *t1;
     char *t2;
@@ -416,7 +416,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_6(char *t0)
+static void work_a_0091695031_1033399337_p_6(char *t0)
 {
     char *t1;
     char *t2;
@@ -475,7 +475,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_7(char *t0)
+static void work_a_0091695031_1033399337_p_7(char *t0)
 {
     char *t1;
     char *t2;
@@ -541,7 +541,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_8(char *t0)
+static void work_a_0091695031_1033399337_p_8(char *t0)
 {
     char *t1;
     char *t2;
@@ -602,7 +602,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_9(char *t0)
+static void work_a_0091695031_1033399337_p_9(char *t0)
 {
     char *t1;
     char *t2;
@@ -684,7 +684,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_10(char *t0)
+static void work_a_0091695031_1033399337_p_10(char *t0)
 {
     char *t1;
     char *t2;
@@ -745,7 +745,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_11(char *t0)
+static void work_a_0091695031_1033399337_p_11(char *t0)
 {
     char *t1;
     char *t2;
@@ -806,7 +806,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_12(char *t0)
+static void work_a_0091695031_1033399337_p_12(char *t0)
 {
     char *t1;
     char *t2;
@@ -850,7 +850,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_13(char *t0)
+static void work_a_0091695031_1033399337_p_13(char *t0)
 {
     char *t1;
     char *t2;
@@ -911,7 +911,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_14(char *t0)
+static void work_a_0091695031_1033399337_p_14(char *t0)
 {
     char *t1;
     char *t2;
@@ -970,7 +970,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_15(char *t0)
+static void work_a_0091695031_1033399337_p_15(char *t0)
 {
     char *t1;
     char *t2;
@@ -1014,7 +1014,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_16(char *t0)
+static void work_a_0091695031_1033399337_p_16(char *t0)
 {
     char *t1;
     char *t2;
@@ -1048,7 +1048,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_17(char *t0)
+static void work_a_0091695031_1033399337_p_17(char *t0)
 {
     char *t1;
     char *t2;
@@ -1121,7 +1121,7 @@ static void work_a_0193944621_1500754806_p_17(char *t0)
     char *t69;
     char *t70;
 
-LAB0:    xsi_set_current_line(40, ng0);
+LAB0:    xsi_set_current_line(39, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
@@ -1211,7 +1211,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_18(char *t0)
+static void work_a_0091695031_1033399337_p_18(char *t0)
 {
     char *t1;
     char *t2;
@@ -1276,7 +1276,7 @@ static void work_a_0193944621_1500754806_p_18(char *t0)
     char *t61;
     char *t62;
 
-LAB0:    xsi_set_current_line(41, ng0);
+LAB0:    xsi_set_current_line(40, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
@@ -1357,7 +1357,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_19(char *t0)
+static void work_a_0091695031_1033399337_p_19(char *t0)
 {
     char *t1;
     char *t2;
@@ -1406,7 +1406,7 @@ static void work_a_0193944621_1500754806_p_19(char *t0)
     char *t45;
     char *t46;
 
-LAB0:    xsi_set_current_line(42, ng0);
+LAB0:    xsi_set_current_line(41, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
@@ -1469,7 +1469,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_20(char *t0)
+static void work_a_0091695031_1033399337_p_20(char *t0)
 {
     char *t1;
     char *t2;
@@ -1518,7 +1518,7 @@ static void work_a_0193944621_1500754806_p_20(char *t0)
     char *t45;
     char *t46;
 
-LAB0:    xsi_set_current_line(43, ng0);
+LAB0:    xsi_set_current_line(42, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
@@ -1581,7 +1581,7 @@ LAB4:    goto LAB2;
 
 }
 
-static void work_a_0193944621_1500754806_p_21(char *t0)
+static void work_a_0091695031_1033399337_p_21(char *t0)
 {
     char *t1;
     char *t2;
@@ -1662,7 +1662,7 @@ static void work_a_0193944621_1500754806_p_21(char *t0)
     char *t77;
     char *t78;
 
-LAB0:    xsi_set_current_line(44, ng0);
+LAB0:    xsi_set_current_line(43, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
@@ -1762,9 +1762,9 @@ LAB4:    goto LAB2;
 }
 
 
-extern void work_a_0193944621_1500754806_init()
+extern void work_a_0091695031_1033399337_init()
 {
-	static char *pe[] = {(void *)work_a_0193944621_1500754806_p_0,(void *)work_a_0193944621_1500754806_p_1,(void *)work_a_0193944621_1500754806_p_2,(void *)work_a_0193944621_1500754806_p_3,(void *)work_a_0193944621_1500754806_p_4,(void *)work_a_0193944621_1500754806_p_5,(void *)work_a_0193944621_1500754806_p_6,(void *)work_a_0193944621_1500754806_p_7,(void *)work_a_0193944621_1500754806_p_8,(void *)work_a_0193944621_1500754806_p_9,(void *)work_a_0193944621_1500754806_p_10,(void *)work_a_0193944621_1500754806_p_11,(void *)work_a_0193944621_1500754806_p_12,(void *)work_a_0193944621_1500754806_p_13,(void *)work_a_0193944621_1500754806_p_14,(void *)work_a_0193944621_1500754806_p_15,(void *)work_a_0193944621_1500754806_p_16,(void *)work_a_0193944621_1500754806_p_17,(void *)work_a_0193944621_1500754806_p_18,(void *)work_a_0193944621_1500754806_p_19,(void *)work_a_0193944621_1500754806_p_20,(void *)work_a_0193944621_1500754806_p_21};
-	xsi_register_didat("work_a_0193944621_1500754806", "isim/JUHTAUTOMAAT_TB_isim_beh.exe.sim/work/a_0193944621_1500754806.didat");
+	static char *pe[] = {(void *)work_a_0091695031_1033399337_p_0,(void *)work_a_0091695031_1033399337_p_1,(void *)work_a_0091695031_1033399337_p_2,(void *)work_a_0091695031_1033399337_p_3,(void *)work_a_0091695031_1033399337_p_4,(void *)work_a_0091695031_1033399337_p_5,(void *)work_a_0091695031_1033399337_p_6,(void *)work_a_0091695031_1033399337_p_7,(void *)work_a_0091695031_1033399337_p_8,(void *)work_a_0091695031_1033399337_p_9,(void *)work_a_0091695031_1033399337_p_10,(void *)work_a_0091695031_1033399337_p_11,(void *)work_a_0091695031_1033399337_p_12,(void *)work_a_0091695031_1033399337_p_13,(void *)work_a_0091695031_1033399337_p_14,(void *)work_a_0091695031_1033399337_p_15,(void *)work_a_0091695031_1033399337_p_16,(void *)work_a_0091695031_1033399337_p_17,(void *)work_a_0091695031_1033399337_p_18,(void *)work_a_0091695031_1033399337_p_19,(void *)work_a_0091695031_1033399337_p_20,(void *)work_a_0091695031_1033399337_p_21};
+	xsi_register_didat("work_a_0091695031_1033399337", "isim/JUHTAUTOMAAT_TB_isim_beh.exe.sim/work/a_0091695031_1033399337.didat");
 	xsi_register_executes(pe);
 }

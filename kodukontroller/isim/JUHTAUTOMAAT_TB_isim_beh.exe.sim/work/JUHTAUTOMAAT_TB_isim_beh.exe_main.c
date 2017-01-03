@@ -29,7 +29,10 @@ int main(int argc, char **argv)
     ieee_p_2592010699_init();
     ieee_p_1242562249_init();
     ieee_p_3499444699_init();
+    work_a_3086686521_2866026638_init();
+    work_a_0359082936_3212880686_init();
     work_a_0193944621_1500754806_init();
+    work_a_0091695031_1033399337_init();
     work_a_1225990005_3521875484_init();
     work_a_2948530165_1949178628_init();
 
