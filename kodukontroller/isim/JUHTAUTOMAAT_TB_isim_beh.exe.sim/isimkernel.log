@@ -1,0 +1,10 @@
+Command line:
+   JUHTAUTOMAAT_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57906
+
+Wed Jan 04 16:42:48 2017
+
+
+ Elaboration Time: 0.0625 sec

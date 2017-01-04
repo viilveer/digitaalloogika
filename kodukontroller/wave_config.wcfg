@@ -75,13 +75,13 @@
       <obj_property name="ElementShortName">y2_bh_tb</obj_property>
       <obj_property name="ObjectShortName">y2_bh_tb</obj_property>
    </wvobject>
-   <wvobject fp_name="/juhtautomaat_tb/y2_st_tb" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">y2_st_tb</obj_property>
-      <obj_property name="ObjectShortName">y2_st_tb</obj_property>
-   </wvobject>
    <wvobject fp_name="/juhtautomaat_tb/y2_df_tb" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">y2_df_tb</obj_property>
       <obj_property name="ObjectShortName">y2_df_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/juhtautomaat_tb/y2_st_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y2_st_tb</obj_property>
+      <obj_property name="ObjectShortName">y2_st_tb</obj_property>
    </wvobject>
    <wvobject fp_name="/juhtautomaat_tb/y3_tt_tb" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">y3_tt_tb</obj_property>

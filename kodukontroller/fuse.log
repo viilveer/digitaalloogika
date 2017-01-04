@@ -3,6 +3,13 @@ ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/OR8g.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/OR7g.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/OR5g.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/OR10g.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/NOTg.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/AND3g.vhdl" into library work
+Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/AND2g.vhdl" into library work
 Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/tt.vhdl" into library work
 Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/struct.vhdl" into library work
 Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/juhtautomaat-bhv.vhdl" into library work
@@ -11,8 +18,8 @@ Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaa
 Parsing VHDL file "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/testbench.vhdl" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 99344 KB
-Fuse CPU Usage: 296 ms
+Fuse Memory Usage: 95368 KB
+Fuse CPU Usage: 328 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -20,12 +27,19 @@ Compiling package std_logic_arith
 Compiling architecture design of entity tt [tt_default]
 Compiling architecture behavioral of entity behave [behave_default]
 Compiling architecture dataflowing of entity DATAFLOW [dataflow_default]
+Compiling architecture behavioral of entity NOTg [notg_default]
+Compiling architecture behavioral of entity OR8g [or8g_default]
+Compiling architecture behavioral of entity OR7g [or7g_default]
+Compiling architecture behavioral of entity OR5g [or5g_default]
+Compiling architecture behavioral of entity OR10g [or10g_default]
+Compiling architecture behavioral of entity AND2g [and2g_default]
+Compiling architecture behavioral of entity AND3g [and3g_default]
 Compiling architecture structual of entity struct [struct_default]
 Compiling architecture toplevel of entity JUHTAUTOMAAT [juhtautomaat_default]
 Compiling architecture testbench of entity juhtautomaat_tb
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 15 VHDL Units
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
 Built simulation executable C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_TB_isim_beh.exe
-Fuse Memory Usage: 114612 KB
-Fuse CPU Usage: 608 ms
+Fuse Memory Usage: 110500 KB
+Fuse CPU Usage: 687 ms
