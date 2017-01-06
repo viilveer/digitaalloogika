@@ -1,0 +1,29 @@
+Command line:
+   JUHTAUTOMAAT_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62622
+
+Fri Jan 06 13:51:50 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 348.164 Meg
+
+ Total Signals          : 209
+ Total Nets             : 83
+ Total Signal Drivers   : 66
+ Total Blocks           : 39
+ Total Primitive Blocks : 36
+ Total Processes        : 59
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 584
+Total Line Count : 98
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 348.164 Meg
+
+Fri Jan 06 18:17:53 2017
+
