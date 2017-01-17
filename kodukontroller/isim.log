@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\kaskkmar\Documents\IT6pe\Digiloogika\kodut66\digitaalloogika\kodukontroller\JUHTAUTOMAAT_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_TB_isim_beh.wdb 
+Running: C:\Users\kaskkmar\Documents\IT6pe\Digiloogika\ARHIIV\kodut66\digitaalloogika\kodukontroller\JUHTAUTOMAAT_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/ARHIIV/kodut66/digitaalloogika/kodukontroller/JUHTAUTOMAAT_TB_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -112,12 +112,8 @@ at 970 ns: Note: Test truthtable column nr. 97 (/juhtautomaat_tb/).
 at 980 ns: Note: Test truthtable column nr. 98 (/juhtautomaat_tb/).
 at 990 ns: Note: Test truthtable column nr. 99 (/juhtautomaat_tb/).
 at 1 us: Note: Test truthtable column nr. 100 (/juhtautomaat_tb/).
-# step
-Stopped at time : 1010 ns : File "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/testbench.vhdl" Line 105
-# step
-at 1010 ns: Note: Test truthtable column nr. 101 (/juhtautomaat_tb/).
-Stopped at time : 1010 ns : File "C:/Users/kaskkmar/Documents/IT6pe/Digiloogika/kodut66/digitaalloogika/kodukontroller/testbench.vhdl" Line 106
 # run 1.00us
+at 1010 ns: Note: Test truthtable column nr. 101 (/juhtautomaat_tb/).
 at 1020 ns: Note: Test truthtable column nr. 102 (/juhtautomaat_tb/).
 at 1030 ns: Note: Test truthtable column nr. 103 (/juhtautomaat_tb/).
 at 1040 ns: Note: Test truthtable column nr. 104 (/juhtautomaat_tb/).
@@ -144,113 +140,3 @@ at 1240 ns: Note: Test truthtable column nr. 124 (/juhtautomaat_tb/).
 at 1250 ns: Note: Test truthtable column nr. 125 (/juhtautomaat_tb/).
 at 1260 ns: Note: Test truthtable column nr. 126 (/juhtautomaat_tb/).
 at 1270 ns: Note: Test truthtable column nr. 127 (/juhtautomaat_tb/).
-The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.
-ISim P.20131013 (signature 0x8ef4fb42)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-at 0 ps: Note: Test truthtable column nr. 0 (/juhtautomaat_tb/).
-Finished circuit initialization process.
-at 10 ns: Note: Test truthtable column nr. 1 (/juhtautomaat_tb/).
-at 20 ns: Note: Test truthtable column nr. 2 (/juhtautomaat_tb/).
-at 30 ns: Note: Test truthtable column nr. 3 (/juhtautomaat_tb/).
-at 40 ns: Note: Test truthtable column nr. 4 (/juhtautomaat_tb/).
-at 50 ns: Note: Test truthtable column nr. 5 (/juhtautomaat_tb/).
-at 60 ns: Note: Test truthtable column nr. 6 (/juhtautomaat_tb/).
-at 70 ns: Note: Test truthtable column nr. 7 (/juhtautomaat_tb/).
-at 80 ns: Note: Test truthtable column nr. 8 (/juhtautomaat_tb/).
-at 90 ns: Note: Test truthtable column nr. 9 (/juhtautomaat_tb/).
-at 100 ns: Note: Test truthtable column nr. 10 (/juhtautomaat_tb/).
-at 110 ns: Note: Test truthtable column nr. 11 (/juhtautomaat_tb/).
-at 120 ns: Note: Test truthtable column nr. 12 (/juhtautomaat_tb/).
-at 130 ns: Note: Test truthtable column nr. 13 (/juhtautomaat_tb/).
-at 140 ns: Note: Test truthtable column nr. 14 (/juhtautomaat_tb/).
-at 150 ns: Note: Test truthtable column nr. 15 (/juhtautomaat_tb/).
-at 160 ns: Note: Test truthtable column nr. 16 (/juhtautomaat_tb/).
-at 170 ns: Note: Test truthtable column nr. 17 (/juhtautomaat_tb/).
-at 180 ns: Note: Test truthtable column nr. 18 (/juhtautomaat_tb/).
-at 190 ns: Note: Test truthtable column nr. 19 (/juhtautomaat_tb/).
-at 200 ns: Note: Test truthtable column nr. 20 (/juhtautomaat_tb/).
-at 210 ns: Note: Test truthtable column nr. 21 (/juhtautomaat_tb/).
-at 220 ns: Note: Test truthtable column nr. 22 (/juhtautomaat_tb/).
-at 230 ns: Note: Test truthtable column nr. 23 (/juhtautomaat_tb/).
-at 240 ns: Note: Test truthtable column nr. 24 (/juhtautomaat_tb/).
-at 250 ns: Note: Test truthtable column nr. 25 (/juhtautomaat_tb/).
-at 260 ns: Note: Test truthtable column nr. 26 (/juhtautomaat_tb/).
-at 270 ns: Note: Test truthtable column nr. 27 (/juhtautomaat_tb/).
-at 280 ns: Note: Test truthtable column nr. 28 (/juhtautomaat_tb/).
-at 290 ns: Note: Test truthtable column nr. 29 (/juhtautomaat_tb/).
-at 300 ns: Note: Test truthtable column nr. 30 (/juhtautomaat_tb/).
-at 310 ns: Note: Test truthtable column nr. 31 (/juhtautomaat_tb/).
-at 320 ns: Note: Test truthtable column nr. 32 (/juhtautomaat_tb/).
-at 330 ns: Note: Test truthtable column nr. 33 (/juhtautomaat_tb/).
-at 340 ns: Note: Test truthtable column nr. 34 (/juhtautomaat_tb/).
-at 350 ns: Note: Test truthtable column nr. 35 (/juhtautomaat_tb/).
-at 360 ns: Note: Test truthtable column nr. 36 (/juhtautomaat_tb/).
-at 370 ns: Note: Test truthtable column nr. 37 (/juhtautomaat_tb/).
-at 380 ns: Note: Test truthtable column nr. 38 (/juhtautomaat_tb/).
-at 390 ns: Note: Test truthtable column nr. 39 (/juhtautomaat_tb/).
-at 400 ns: Note: Test truthtable column nr. 40 (/juhtautomaat_tb/).
-at 410 ns: Note: Test truthtable column nr. 41 (/juhtautomaat_tb/).
-at 420 ns: Note: Test truthtable column nr. 42 (/juhtautomaat_tb/).
-at 430 ns: Note: Test truthtable column nr. 43 (/juhtautomaat_tb/).
-at 440 ns: Note: Test truthtable column nr. 44 (/juhtautomaat_tb/).
-at 450 ns: Note: Test truthtable column nr. 45 (/juhtautomaat_tb/).
-at 460 ns: Note: Test truthtable column nr. 46 (/juhtautomaat_tb/).
-at 470 ns: Note: Test truthtable column nr. 47 (/juhtautomaat_tb/).
-at 480 ns: Note: Test truthtable column nr. 48 (/juhtautomaat_tb/).
-at 490 ns: Note: Test truthtable column nr. 49 (/juhtautomaat_tb/).
-at 500 ns: Note: Test truthtable column nr. 50 (/juhtautomaat_tb/).
-at 510 ns: Note: Test truthtable column nr. 51 (/juhtautomaat_tb/).
-at 520 ns: Note: Test truthtable column nr. 52 (/juhtautomaat_tb/).
-at 530 ns: Note: Test truthtable column nr. 53 (/juhtautomaat_tb/).
-at 540 ns: Note: Test truthtable column nr. 54 (/juhtautomaat_tb/).
-at 550 ns: Note: Test truthtable column nr. 55 (/juhtautomaat_tb/).
-at 560 ns: Note: Test truthtable column nr. 56 (/juhtautomaat_tb/).
-at 570 ns: Note: Test truthtable column nr. 57 (/juhtautomaat_tb/).
-at 580 ns: Note: Test truthtable column nr. 58 (/juhtautomaat_tb/).
-at 590 ns: Note: Test truthtable column nr. 59 (/juhtautomaat_tb/).
-at 600 ns: Note: Test truthtable column nr. 60 (/juhtautomaat_tb/).
-at 610 ns: Note: Test truthtable column nr. 61 (/juhtautomaat_tb/).
-at 620 ns: Note: Test truthtable column nr. 62 (/juhtautomaat_tb/).
-at 630 ns: Note: Test truthtable column nr. 63 (/juhtautomaat_tb/).
-at 640 ns: Note: Test truthtable column nr. 64 (/juhtautomaat_tb/).
-at 650 ns: Note: Test truthtable column nr. 65 (/juhtautomaat_tb/).
-at 660 ns: Note: Test truthtable column nr. 66 (/juhtautomaat_tb/).
-at 670 ns: Note: Test truthtable column nr. 67 (/juhtautomaat_tb/).
-at 680 ns: Note: Test truthtable column nr. 68 (/juhtautomaat_tb/).
-at 690 ns: Note: Test truthtable column nr. 69 (/juhtautomaat_tb/).
-at 700 ns: Note: Test truthtable column nr. 70 (/juhtautomaat_tb/).
-at 710 ns: Note: Test truthtable column nr. 71 (/juhtautomaat_tb/).
-at 720 ns: Note: Test truthtable column nr. 72 (/juhtautomaat_tb/).
-at 730 ns: Note: Test truthtable column nr. 73 (/juhtautomaat_tb/).
-at 740 ns: Note: Test truthtable column nr. 74 (/juhtautomaat_tb/).
-at 750 ns: Note: Test truthtable column nr. 75 (/juhtautomaat_tb/).
-at 760 ns: Note: Test truthtable column nr. 76 (/juhtautomaat_tb/).
-at 770 ns: Note: Test truthtable column nr. 77 (/juhtautomaat_tb/).
-at 780 ns: Note: Test truthtable column nr. 78 (/juhtautomaat_tb/).
-at 790 ns: Note: Test truthtable column nr. 79 (/juhtautomaat_tb/).
-at 800 ns: Note: Test truthtable column nr. 80 (/juhtautomaat_tb/).
-at 810 ns: Note: Test truthtable column nr. 81 (/juhtautomaat_tb/).
-at 820 ns: Note: Test truthtable column nr. 82 (/juhtautomaat_tb/).
-at 830 ns: Note: Test truthtable column nr. 83 (/juhtautomaat_tb/).
-at 840 ns: Note: Test truthtable column nr. 84 (/juhtautomaat_tb/).
-at 850 ns: Note: Test truthtable column nr. 85 (/juhtautomaat_tb/).
-at 860 ns: Note: Test truthtable column nr. 86 (/juhtautomaat_tb/).
-at 870 ns: Note: Test truthtable column nr. 87 (/juhtautomaat_tb/).
-at 880 ns: Note: Test truthtable column nr. 88 (/juhtautomaat_tb/).
-at 890 ns: Note: Test truthtable column nr. 89 (/juhtautomaat_tb/).
-at 900 ns: Note: Test truthtable column nr. 90 (/juhtautomaat_tb/).
-at 910 ns: Note: Test truthtable column nr. 91 (/juhtautomaat_tb/).
-at 920 ns: Note: Test truthtable column nr. 92 (/juhtautomaat_tb/).
-at 930 ns: Note: Test truthtable column nr. 93 (/juhtautomaat_tb/).
-at 940 ns: Note: Test truthtable column nr. 94 (/juhtautomaat_tb/).
-at 950 ns: Note: Test truthtable column nr. 95 (/juhtautomaat_tb/).
-at 960 ns: Note: Test truthtable column nr. 96 (/juhtautomaat_tb/).
-at 970 ns: Note: Test truthtable column nr. 97 (/juhtautomaat_tb/).
-at 980 ns: Note: Test truthtable column nr. 98 (/juhtautomaat_tb/).
-at 990 ns: Note: Test truthtable column nr. 99 (/juhtautomaat_tb/).
-at 1 us: Note: Test truthtable column nr. 100 (/juhtautomaat_tb/).

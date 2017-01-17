@@ -78,8 +78,8 @@ end component;
 			); 
 end component;
 
-signal y1_tt, y2_tt, y3_tt , y1_bh, y2_bh, y3_bh, y1_df, y2_df, y3_df, y1_st, y2_st, y3_st, LED_y1, LED_y2, LED_y3 :STD_LOGIC;
-signal y4_tt,y4_bh ,y4_df ,y4_st, m_y1, m_y2, m_y3, m_y4, m_op, LED_y4 :STD_LOGIC_VECTOR (1 downto 0);
+signal y1_tt, y2_tt, y3_tt , y1_bh, y2_bh, y3_bh, y1_df, y2_df, y3_df, y1_st, y2_st, y3_st, LED_y1, LED_y2, LED_y3, m_y1, m_y2, m_y3 :STD_LOGIC;
+signal y4_tt,y4_bh ,y4_df ,y4_st, m_y4, m_op, LED_y4 :STD_LOGIC_VECTOR (1 downto 0);
 
 begin
 	--assign y1 output to LED-s 1-3 for keeping Bitgen the constraints of setup.
